@@ -1,0 +1,16 @@
+﻿已經開始建置於 2016/8/31 下午 05:49:05。
+     1>節點 2 (build 目標) 上的專案 "D:\ROI_CUT0509\ROI_0509\roi\roi\roi.vcxproj"。
+     1>InitializeBuildStatus:
+         正在變更時間戳記 "x64\Release\roi.unsuccessfulbuild"。
+       GenerateTargetFrameworkMonikerAttribute:
+       將略過目標 "GenerateTargetFrameworkMonikerAttribute"，因為所有輸出檔對於其輸入檔而言都已更新。
+       ClCompile:
+         所有輸出都是最新的。
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /O2 /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"x64\Release\roi.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /errorReport:prompt roi.cpp /clr:nostdlib 
+         roi.cpp
+     1>d:\roi_cut0509\roi_0509\roi\roi\Form1.h(3): fatal error C1083: 無法開啟包含檔案: 'opencv2/imgproc/imgproc.hpp': No such file or directory
+     1>專案 "D:\ROI_CUT0509\ROI_0509\roi\roi\roi.vcxproj" (build 目標) 建置完成 -- 失敗。
+
+建置失敗。
+
+經過時間 00:00:00.15

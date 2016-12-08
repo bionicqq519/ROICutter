@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "roi", "roi\roi.vcxproj", "{70F389E3-7148-4F60-8D4E-09FB2DCBBD42}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ROI_CUT", "ROI_CUT\ROI_CUT.vdproj", "{8D471A79-B2CA-43AA-8B85-535D0EE61E67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70F389E3-7148-4F60-8D4E-09FB2DCBBD42}.Debug|Win32.ActiveCfg = Debug|Win32
+		{70F389E3-7148-4F60-8D4E-09FB2DCBBD42}.Debug|Win32.Build.0 = Debug|Win32
+		{70F389E3-7148-4F60-8D4E-09FB2DCBBD42}.Debug|x64.ActiveCfg = Debug|x64
+		{70F389E3-7148-4F60-8D4E-09FB2DCBBD42}.Debug|x64.Build.0 = Debug|x64
+		{70F389E3-7148-4F60-8D4E-09FB2DCBBD42}.Release|Win32.ActiveCfg = Release|Win32
+		{70F389E3-7148-4F60-8D4E-09FB2DCBBD42}.Release|Win32.Build.0 = Release|Win32
+		{70F389E3-7148-4F60-8D4E-09FB2DCBBD42}.Release|x64.ActiveCfg = Release|x64
+		{70F389E3-7148-4F60-8D4E-09FB2DCBBD42}.Release|x64.Build.0 = Release|x64
+		{8D471A79-B2CA-43AA-8B85-535D0EE61E67}.Debug|Win32.ActiveCfg = Debug
+		{8D471A79-B2CA-43AA-8B85-535D0EE61E67}.Debug|x64.ActiveCfg = Debug
+		{8D471A79-B2CA-43AA-8B85-535D0EE61E67}.Release|Win32.ActiveCfg = Release
+		{8D471A79-B2CA-43AA-8B85-535D0EE61E67}.Release|x64.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

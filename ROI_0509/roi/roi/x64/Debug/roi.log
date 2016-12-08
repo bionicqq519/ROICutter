@@ -1,0 +1,42 @@
+﻿已經開始建置於 2016/12/9 上午 12:06:15。
+     1>節點 2 (rebuild 目標) 上的專案 "C:\Users\Bionic Lee\Desktop\TOOL_nick\ROI_CUT0509\ROI_0509\roi\roi\roi.vcxproj"。
+     1>_PrepareForClean:
+         正在刪除檔案 "x64\Debug\roi.lastbuildstate"。
+       InitializeBuildStatus:
+         由於指定了 "AlwaysCreate"，因此正在建立 "x64\Debug\roi.unsuccessfulbuild"。
+       GenerateTargetFrameworkMonikerAttribute:
+       將略過目標 "GenerateTargetFrameworkMonikerAttribute"，因為所有輸出檔對於其輸入檔而言都已更新。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"x64\Debug\roi.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /errorReport:prompt stdafx.cpp /clr:nostdlib 
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"x64\Debug\roi.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /errorReport:prompt AssemblyInfo.cpp roi.cpp /clr:nostdlib 
+         AssemblyInfo.cpp
+         roi.cpp
+     1>c:\users\bionic lee\desktop\tool_nick\roi_cut0509\roi_0509\roi\roi\Form1.h(566): warning C4244: '正在初始化' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\bionic lee\desktop\tool_nick\roi_cut0509\roi_0509\roi\roi\Form1.h(567): warning C4244: '正在初始化' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /TP /errorReport:prompt "C:\Users\Bionic Lee\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+       CoreResGen:
+         "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\resgen.exe" /useSourcePath /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /compile Form1.resX,x64\Debug\roi.Form1.resources
+         正在處理資源檔 "Form1.resX" 至 "x64\Debug\roi.Form1.resources"。
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"x64\Debug\app.res" app.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Bionic Lee\Desktop\TOOL_nick\ROI_CUT0509\ROI_0509\roi\x64\Debug\roi.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\opencv\build\x64\vc10\lib opencv_core249d.lib opencv_calib3d249d.lib opencv_contrib249d.lib opencv_features2d249d.lib opencv_highgui249d.lib opencv_imgproc249d.lib opencv_video249d.lib opencv_ml249d.lib opencv_legacy249d.lib opencv_objdetect249d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /ASSEMBLYRESOURCE:x64\Debug\roi.Form1.resources /MANIFEST /ManifestFile:"x64\Debug\roi.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Bionic Lee\Desktop\TOOL_nick\ROI_CUT0509\ROI_0509\roi\x64\Debug\roi.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X64 x64\Debug\app.res
+         x64\Debug\AssemblyInfo.obj
+         x64\Debug\roi.obj
+         x64\Debug\stdafx.obj
+         "x64\Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+     1>roi.obj : warning LNK4248: 無法解析的 typeref 語彙基元 (0100003D) (對 'CvCapture' 而言)，映像可能無法執行
+         roi.vcxproj -> C:\Users\Bionic Lee\Desktop\TOOL_nick\ROI_CUT0509\ROI_0509\roi\x64\Debug\roi.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Bionic Lee\Desktop\TOOL_nick\ROI_CUT0509\ROI_0509\roi\x64\Debug\roi.exe;#1" /manifest x64\Debug\roi.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在刪除檔案 "x64\Debug\roi.unsuccessfulbuild"。
+         正在變更時間戳記 "x64\Debug\roi.lastbuildstate"。
+     1>專案 "C:\Users\Bionic Lee\Desktop\TOOL_nick\ROI_CUT0509\ROI_0509\roi\roi\roi.vcxproj" (rebuild 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:06.13
