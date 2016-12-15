@@ -30,7 +30,7 @@ CvCapture* capture = NULL;
 int frames =0; //Á`frames¼Æ
 
 //ROI
-int roi_size = 4;
+int roi_size = 2;
 int draw_state = 0;
 int start_point_x=0,start_point_y=0;
 int current_m_x=0,current_m_y=0;
